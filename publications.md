@@ -13,7 +13,8 @@ permalink: /publications/
 
 * An independence result for clause set cycles (with Stefan Hetzl)
 
-* Induction and Skolemization in saturation theorem proving (with Stefan Hetzl)
+* Induction and Skolemization in saturation theorem proving (with Stefan Hetzl) \
+  [[arXiv](https://arxiv.org/abs/2105.07734)]
 
 ## Theses
 
