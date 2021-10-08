@@ -9,12 +9,15 @@ permalink: /publications/
 * Clause Set Cycles and Induction (with Stefan Hetzl), Logical Methods in Computer Science, November 30, 2020, Volume 16, Issue 4 \
   [[pdf]({{ site.url }}/downloads/Clause Set Cycles and Induction.pdf), [arXiv](https://arxiv.org/abs/1910.03917v5), [LMCS](https://lmcs.episciences.org/6932)]
 
-### Drafts
+## Preprints
 
-* An independence result for clause set cycles (with Stefan Hetzl)
+* Unprovability results for clause set cycles (with Stefan Hetzl) \
+  [[arXiv](https://arxiv.org/abs/2110.03246)]
 
 * Induction and Skolemization in saturation theorem proving (with Stefan Hetzl) \
   [[arXiv](https://arxiv.org/abs/2105.07734)]
+
+## Drafts
 
 ## Theses
 
