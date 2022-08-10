@@ -19,6 +19,9 @@ permalink: /publications/
 
 ## Drafts
 
+* Dissertation: The limits of automated inductive theorem provers \
+  [[pdf]({{ site.url }}/downloads/dissertation.pdf)]
+
 ## Theses
 
 - Master Thesis: Cyclic Superposition and Induction \
