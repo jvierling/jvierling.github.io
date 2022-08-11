@@ -12,7 +12,7 @@ permalink: /publications/
 * Unprovability results for clause set cycles (with Stefan Hetzl), Theoretical Computer Science, Available online 13 July 2022 \
   [[pdf]({{ site.url }}/downloads/hetzl_vierling_2022_tcs.pdf), [arXiv](https://arxiv.org/abs/2110.03246), [TCS](https://doi.org/10.1016/j.tcs.2022.07.003)]
 
-* Induction and Skolemization in saturation theorem proving (with Stefan Hetzl), Annals of pure and applied logic, Available online 27 July 2022 \
+* Induction and Skolemization in saturation theorem proving (with Stefan Hetzl), Annals of pure and applied logic, January 2023, Volume 174, Issue 1 \
   [[pdf]({{ site.url }}/downloads/hetzl_vierling_2022_apal.pdf), [arXiv](https://arxiv.org/abs/2105.07734), [APAL](https://doi.org/10.1016/j.apal.2022.103167)]
 
 ## Preprints
