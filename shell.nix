@@ -1,18 +1,19 @@
 { pkgs ? import <nixpkgs> {} } :
 with pkgs;
-let
-  rubyEnv = bundlerEnv rec {
-      name = "jekyll_env";
-      inherit ruby;
-      gemfile = ./Gemfile;
-      lockfile = ./Gemfile.lock;
-      gemset = ./gemset.nix;
-    };
-in
 mkShell rec {
   name = "jvierling.github.io";
-  nativeBuildInputs = [ jekyll rubyEnv bundler ];
+  nativeBuildInputs = [
+    pkgs.ruby_3_1      # Match the Ruby version used by GitHub Pages
+    pkgs.bundler
+    pkgs.zlib
+    pkgs.libffi
+    pkgs.libxml2
+    pkgs.libxslt
+    pkgs.pkg-config
+    pkgs.git           # Sometimes needed by Bundler
+  ];
   shellHook = ''
+    bundle install
     bundle exec jekyll serve --watch
   '';
 }
