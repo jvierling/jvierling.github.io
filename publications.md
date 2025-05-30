@@ -15,14 +15,13 @@ permalink: /publications/
 * Induction and Skolemization in saturation theorem proving (with Stefan Hetzl), Annals of pure and applied logic, January 2023, Volume 174, Issue 1 \
   [[pdf]({{ site.url }}/downloads/hetzl_vierling_2022_apal.pdf), [arXiv](https://arxiv.org/abs/2105.07734), [APAL](https://doi.org/10.1016/j.apal.2022.103167)]
 
-## Preprints
-
-## Drafts
-
-* Dissertation: The limits of automated inductive theorem provers \
-  [[pdf]({{ site.url }}/downloads/dissertation.pdf)]
+* Quantifier-free induction for lists (with Stefan Hetzl), Archive for Mathematical Logic, April 2024 \
+[[pdf]({{ site.url }}/downloads/hetzl_vierling_2024_afml.pdf), [arXiv](https://arxiv.org/abs/2305.08682), [AFML](https://doi.org/10.1007/s00153-024-00923-8)]
 
 ## Theses
+
+- Dissertation: The limits of automated inductive theorem provers \
+  [[pdf]({{ site.url }}/downloads/dissertation.pdf)]
 
 - Master Thesis: Cyclic Superposition and Induction \
   [[pdf]({{ site.url }}/downloads/Cyclic Superposition and Induction.pdf)]
@@ -39,3 +38,7 @@ permalink: /publications/
   [[pdf]({{ site.url }}/downloads/Zyklische Superposition und Induktion.pdf)]
 
 ## Talks
+
+## Preprints
+
+## Drafts
