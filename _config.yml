@@ -1,10 +1,12 @@
 title: Jannik Vierling
-email: "jannik dot vierling at gmail dot com"
+email: "jannik.vierling@gmail.com"
 description: >- 
 baseurl: "/"
 url: "https://jvierling.github.io" 
 twitter_username: jekyllrb
 github_username: jvierling
+linkedin_username: Jannik Vierling
+linkedin_url: jannik-vierling-0760b0248
 
 # Build settings
 markdown: kramdown

@@ -1,5 +1,8 @@
 <header class="site-header" role="banner">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -18,11 +21,41 @@
 
         <div class="trigger">
           {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {%- endif -%}
           {%- endfor -%}
+
+          {%- if site.github_username -%}
+          <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"
+             style="text-decoration: none !important;font-size:20px;margin-right:0.5em">
+            <i class="fa-brands fa-github" style="font-style:normal;"></i>
+          </a>
+          {%- endif -%}
+
+          <a href="https://scholar.google.com/citations?user=aWcxhR8AAAAJ&hl=en"
+             style="text-decoration: none !important;font-size:20px;margin-right:0.5em">
+            <i class="ai ai-google-scholar ai-1x"></i>
+          </a>
+
+          {%- if site.linkedin_username -%}
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_url| cgi_escape | escape }}"
+             style="text-decoration: none !important;font-size:20px;margin-right:0.5em">
+            <i style="font-style:normal;" class="fa-brands fa-linkedin"></i>
+          </a>
+          {%- endif -%}
+
+          <a href="https://orcid.org/0000-0003-2329-5035"
+             style="text-decoration: none !important;font-size:20px;margin-right:0.5em">
+            <i class="fa-brands fa-orcid" style="font-style:normal"></i>
+          </a>
+
+          <a href="https://dblp.org/pid/250/9179" target="_blank"
+             style="text-decoration: none !important;font-size:20px">
+            <i class="ai ai-dblp ai-1x"></i>
+          </a>
+
         </div>
       </nav>
     {%- endif -%}
